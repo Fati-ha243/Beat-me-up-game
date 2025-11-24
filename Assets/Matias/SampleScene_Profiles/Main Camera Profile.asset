@@ -21,21 +21,21 @@ MonoBehaviour:
     value: 1
   threshold:
     overrideState: 1
-    value: 0.5
+    value: 1
   softKnee:
     overrideState: 1
-    value: 0.78
+    value: 1
   clamp:
     overrideState: 1
-    value: 65472
+    value: 2
   diffusion:
     overrideState: 1
-    value: 5.04
+    value: 7
   anamorphicRatio:
     overrideState: 1
-    value: -0.3
+    value: 1
   color:
-    overrideState: 1
+    overrideState: 0
     value: {r: 0, g: 0.14218709, b: 0.754717, a: 1}
   fastMode:
     overrideState: 0
