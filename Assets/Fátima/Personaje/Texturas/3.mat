@@ -28,7 +28,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 34078c00ef365fd47a84eb82154170b7, type: 3}
+        m_Texture: {fileID: 2800000, guid: dfd093b3bdcff61448daa21a54f17e1a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 558e3ecbce3bbf54b8642277c72f6796, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
@@ -44,23 +44,23 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 3ac994b9edb2c6141b3211dd6b1fbba0, type: 3}
+        m_Texture: {fileID: 2800000, guid: cc9ce70b683416341ac0097286b183a6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d9e83cedc0bfecd4eaa4c49acc514562, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5e783ce1f0f2bc140845c6355280e8de, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 4c165821eb39f2d47affbbdccdba8cbe, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3c249e5607a18424b9d685e5e097e012, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 92d043914bb7fc2428a29cdae4681264, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1ddffbc2e0e5e0a4a98bf8d977e90040, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 0e592d7ce36d31f4791c5f1809dfc077, type: 3}
+        m_Texture: {fileID: 2800000, guid: 53a292bf9234d0f468564a867008172f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -82,7 +82,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0.06301003, g: 0.035601325, b: 0.68668544, a: 1}
+    - _Color: {r: 0.19999999, g: 0.1535849, b: 0.1535849, a: 1}
+    - _EmissionColor: {r: 0.05448028, g: 0.03433981, b: 0.68668544, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
