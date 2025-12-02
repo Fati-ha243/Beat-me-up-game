@@ -336,6 +336,7 @@ GameObject:
   - component: {fileID: 20617310}
   - component: {fileID: 20617309}
   - component: {fileID: 20617308}
+  - component: {fileID: 20617311}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -410,14 +411,36 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20617307}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.06497249, y: -0.7186026, z: -0.06817707, w: 0.68901443}
-  m_LocalPosition: {x: 177.6, y: 21.004946, z: -431.8}
+  m_LocalRotation: {x: -0.064972475, y: -0.7186026, z: -0.06817705, w: 0.68901443}
+  m_LocalPosition: {x: 35.541107, y: 35.098545, z: -75.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 447176591}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1432798497}
   m_LocalEulerAnglesHint: {x: -10.808, y: -92.405, z: -0.033}
+--- !u!95 &20617311
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20617307}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &25239154
 GameObject:
   m_ObjectHideFlags: 0
@@ -4311,6 +4334,57 @@ Transform:
   - {fileID: 1857240583}
   m_Father: {fileID: 180882499}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &250931374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 250931376}
+  - component: {fileID: 250931375}
+  m_Layer: 0
+  m_Name: Timeline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!320 &250931375
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250931374}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: d2702d2936a52a04f87291f3b68cea66, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 4423036538158463564, guid: d2702d2936a52a04f87291f3b68cea66, type: 2}
+    value: {fileID: 1432798498}
+  m_ExposedReferences:
+    m_References: []
+--- !u!4 &250931376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250931374}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 142.0589, y: -14.093598, z: -356.14246}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &251109367
 GameObject:
   m_ObjectHideFlags: 0
@@ -5538,7 +5612,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2029865619}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1432798497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7818,6 +7892,7 @@ GameObject:
   m_Component:
   - component: {fileID: 447176591}
   - component: {fileID: 447176592}
+  - component: {fileID: 447176593}
   m_Layer: 0
   m_Name: Camara Efecto Retro
   m_TagString: Untagged
@@ -7891,6 +7966,28 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!95 &447176593
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447176590}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &448586861
 GameObject:
   m_ObjectHideFlags: 0
@@ -27116,6 +27213,63 @@ Transform:
   - {fileID: 1154953268}
   m_Father: {fileID: 876150966}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1432798496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1432798497}
+  - component: {fileID: 1432798498}
+  m_Layer: 0
+  m_Name: Camaras Grupo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1432798497
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432798496}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 142.0589, y: -14.093598, z: -356.14246}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 20617310}
+  - {fileID: 323662334}
+  - {fileID: 1699727654}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1432798498
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432798496}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1434745701
 GameObject:
   m_ObjectHideFlags: 0
@@ -31582,11 +31736,11 @@ Transform:
   m_GameObject: {fileID: 1699727651}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0009184688, y: -0.020595936, z: 0.046753135, w: 0.9986937}
-  m_LocalPosition: {x: 177.6, y: 21.004944, z: -431.8}
+  m_LocalPosition: {x: 35.541107, y: 35.09854, z: -77.15753}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1432798497}
   m_LocalEulerAnglesHint: {x: 0.215, y: -2.353, z: 5.356}
 --- !u!1 &1699771446
 GameObject:
@@ -39684,6 +39838,5 @@ SceneRoots:
   - {fileID: 557727240}
   - {fileID: 1473425441}
   - {fileID: 995305015}
-  - {fileID: 20617310}
-  - {fileID: 323662334}
-  - {fileID: 1699727654}
+  - {fileID: 1432798497}
+  - {fileID: 250931376}
